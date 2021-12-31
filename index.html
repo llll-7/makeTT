@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>makeTT</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    
+    <div id="wrapper">
+        <div id="layout">
+            <form name="myform">
+                <br>
+                <h1 class="makett">makeTT</h1><br>
+                <h3 class="white">START</h3>
+                <input type="time" id="start" value="17:00"><br><br>
+                <h3 class="white">STAGE (min)</h3>
+                <input type="time" min="0" id="stage" value="00:30"/><br><br>
+                <h3 class="white">STAGE CHANGE (min)</h3>
+                <input type="time" min="0" id="change" value="00:15"/><br><br>
+                <h3 class="white">ARTISTS</h3>
+                <input type="number" min="0" id="artists" value="6"/><br><br><br><br>
+                <!--http://web-dsn.com/css/submitbtn_img/-->
+                <input type="button" class="button" id="make" value=""></input><br><br>
+                <textarea id="tt" rows=30></textarea><br><br><br><br>
+            </form>
+        </div>
+    </div>
+    <script src="sample.js"></script>
+</body>
+</html>

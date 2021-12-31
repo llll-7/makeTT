@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+body {
+    margin: 0;
+	padding: 0;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	color: #333;
+	font-size: 13px;
+	line-height: 150%;
+}
+
+#wrapper {
+	width: 100%;
+	margin: auto;
+	padding: 0px;
+	border: 0px;
+	background-color: #3c3e42;	
+}
+
+#layout {
+    position: relative;
+    text-align: center
+}
+
+.makett {
+    color: #8787ff;
+}
+        
+.white {
+    color: white;
+}
+
+.button {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #3c3e42;
+    background: url("./image/makeTT.png") left top no-repeat;
+}
